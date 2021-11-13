@@ -13,3 +13,9 @@ Ces indicateurs sont les suivants :
 * "alcool"
 
 Cette application est en ligne à l'adresse https://wine-quality-prediction-21.herokuapp.com/
+
+Les points suivant peuvent créer des difficultés  et voici leur solution : 
+* Bien penser à créer un Procfile pour Heroku ici : gunicorn app:app. le serveur Gunicorn est largement compatible avec de nombreux framework web, il est simple à mettre en œuvre, peu gourmand en ressources serveur et assez rapide.
+* pip install gunicorn avant de générer correctement le fichier requirements.txt grace à la commande pip freeze requirements.txt
+* En cas de mauvaise initialisation de git : sur windows la solution passe par la commande wsl rm -rf .git 
+* commandes magiques sur github : git pull    /  git add .    /     git commit -m "add xxxx"         / git push
