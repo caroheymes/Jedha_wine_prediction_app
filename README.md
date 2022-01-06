@@ -19,3 +19,6 @@ Les points suivant peuvent créer des difficultés  et voici leur solution :
 * pip install gunicorn avant de générer correctement le fichier requirements.txt grace à la commande pip freeze requirements.txt
 * En cas de mauvaise initialisation de git : sur windows la solution passe par la commande wsl rm -rf .git 
 * commandes magiques sur github : git pull    /  git add .    /     git commit -m "add xxxx"         / git push
+
+![image](https://user-images.githubusercontent.com/32369680/148321454-01d2bcff-966c-410e-a690-c9af755be318.png)
+![image](https://user-images.githubusercontent.com/32369680/148321524-7a3da1ca-be03-438a-9cd9-b846969d8aec.png)
